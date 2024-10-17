@@ -1,0 +1,1 @@
+Este documento será utilizado para armazenar todos os meus projetos simples relacionados aos cursos da Alura. Nele, ficará registrado o meu progresso de forma clara e acessível, permitindo futuras atualizações. Dessa forma, os projetos se tornam versáteis e adequados para reutilizações posteriores.
