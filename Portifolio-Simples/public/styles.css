@@ -1,0 +1,50 @@
+.Conteiner_Header{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: black;
+    font-weight: 400;
+    border-bottom: solid 1px rgba(214, 37, 13, 0.849);
+}
+
+strong {
+    color: rgba(214, 37, 13, 0.849);
+}
+
+.Conteiner_Home{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.Conteiner_Main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 2rem;
+}
+
+.Programing_Img{
+    width: 21rem;
+    border-radius: 10%;
+}
+
+.Logo_Img{
+    width: 5%;
+    cursor: pointer;
+}
+
+.Informações_Main{
+    padding: 25px;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}

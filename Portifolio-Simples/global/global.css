@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Após fazer o import da font, não se esqueça de utilizar o font-family mais o nome da fonte e adicione o Sans-serife */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+}
