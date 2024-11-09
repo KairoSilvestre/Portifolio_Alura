@@ -8,5 +8,10 @@
 }
 
 body{
-    background-color: #f5f5f5;
+    color: white;
+    font-weight: 500;
+    /* Atribuindo uma animação de fundo */
+    background: linear-gradient(270deg, #131720, #1c263d, #0d1629, #252629);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
 }

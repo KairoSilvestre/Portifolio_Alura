@@ -1,50 +1,84 @@
-.Conteiner_Header{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
 
 li {
-    display: inline-block;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    padding: 0.5rem;
-    cursor: pointer;
-    color: black;
-    font-weight: 400;
-    border-bottom: solid 1px rgba(214, 37, 13, 0.849);
-}
-
-strong {
-    color: rgba(214, 37, 13, 0.849);
-}
-
-.Conteiner_Home{
     display: flex;
     align-items: center;
-    gap: 30px;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    list-style-type: none;
+    padding: 1%;
+}
+
+li:hover {
+    background-color: #07090D;
+    color: white;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 12px #313542; 
+    border-radius: 15px;
+}
+
+.Conteiner_Header{
+    display: flex;
+    background-color: #8dc087ad;
+    justify-content: space-around;
+    gap: 50px;
+    padding-right: 2rem;
+}
+
+.Conteiner_Header img{
+    width: 30px;
 }
 
 .Conteiner_Main{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+.Estilizar_Agrupamento{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 2%;
+    height: 60vh;
+    border-radius: 40px;
+    width: 86%;
+}
+
+.Conteiner_Main h1{
+    color: #959CB1;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.Conteiner_Main p{
+    font-size: 30px;
+    font-weight: 300;
+    color: #959CB1;
+}
+
+.Imagem_Kairo{
+    width: 50vh;
+    border-radius: 60px;
+    object-fit: cover;
+    border: 4px solid #959CB1;
+}
+
+strong{
+    color: #8DC087;
+}
+
+.Organizando_png img{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 2rem;
-}
-
-.Programing_Img{
-    width: 21rem;
-    border-radius: 10%;
-}
-
-.Logo_Img{
-    width: 5%;
-    cursor: pointer;
-}
-
-.Informações_Main{
-    padding: 25px;
-    font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    width: 28px;
 }
